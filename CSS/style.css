@@ -27,18 +27,22 @@ h1, h2, h3, h4, h5, h6{
 #main-header {
     display: grid;
     grid-template-columns: 0.5fr 9fr;
+
 }
 .side-contact-bar{
     background: rgb(247, 244, 244);
-    height: 100vh;
+    height: infinite;
     text-align: center;
+    
     
 }
 .side-contact-bar ul{
     margin-top: 30vh;
+   
 }
 .side-contact-bar ul li{
     padding: 0.75rem;
+    
 }
 
 /* utility classs */
@@ -97,7 +101,7 @@ h1, h2, h3, h4, h5, h6{
     margin: auto;
 }
 .first-section .container{
-    height: 84vh;
+    height: 95vh;
 }
 .first-section .container .card{
     height: 400px;
@@ -122,4 +126,142 @@ h1, h2, h3, h4, h5, h6{
     display: flex;
     float: right;
 }
+
+#about{
+    height: 70vh;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* text-align: center; */
+    padding: auto auto;
+    align-content: center;
+}
+#about .about-head{
+    text-align: left;
+    margin-left: 200px;
+    line-height: 2rem;
+}
+#about .about-head h5{
+    font-size: 15px;
+}
+#about .about-para{
+    margin-right: 250px;
+    line-height: 2rem;
+}
+#services{
+    background: #dbe7de;
+}
+#services h2{
+    text-align: center;
+    padding-top: 100px;
+    align-content: center;
+}
+#services .service-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 70vh;
+}
+
+#services .service-container h2{
+    padding-bottom: 30px;
+}
+#services .service-container p{
+    padding-bottom: 50px;
+}
+.btn-2{
+    margin: 20px 100px;
+    padding: 10px 40px;
+    background: #dbe7de;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+}
+.Portfolio{
+    /* height: 40vh; */
+    background: #fff;
+    margin: auto;
+}
+.Portfolio h2{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.prewedding{
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    margin: auto;
+}
+.prewedding .prewedding-content{
+    height: 70vh;
+    background: #dbe7de ;
+    align-content: center;
+}
+.prewedding .prewedding-content p{
+    max-width: 400px;
+    margin: auto;
+    
+    padding-bottom: 150px;
+}
+.prewedding .prewedding-content h3{
+    max-width: 400px;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.engagement{
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    margin: auto;
+}
+.engagement .engagement-content{
+    height: 70vh;
+    background: #dbe7de ;
+    align-content: center;
+}
+.engagement .engagement-content p{
+    max-width: 400px;
+    margin: auto;
+    
+    padding-bottom: 150px;
+}
+.engagement .engagement-content h3{
+    max-width: 400px;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.gap{
+    height:30vh;
+}
+#testimonials{
+    height: 70vh;
+    background: #000;
+    color: #fff;
+}
+#testimonials h2{
+    margin: auto;
+    padding-top:120px;
+    text-align: center;
+}
+#testimonials p{
+    max-width: 500px;
+    margin: auto;
+    padding-top:50px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+footer{
+    height: 10vh;
+    background-color: #c9decf;
+}
+.developer{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+
 
